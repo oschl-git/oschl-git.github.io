@@ -1,0 +1,43 @@
+.project-subtitle {
+	margin-top: -70px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: "Rajdhani", sans-serif;
+	letter-spacing: 1px;
+}
+
+.gallery {
+	margin: 0 5vw;
+	margin-bottom: 100px;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+}
+
+.gallery a img{
+	width: 100%;
+	flex-basis: 0;
+	flex-grow: 1;
+	object-fit: contain;
+}
+
+.gallery img:hover {
+	filter: brightness(150%);
+}
+
+@media (min-width: 550px) {
+	.gallery {
+		margin: 0 15vw;
+		margin-bottom: 100px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.gallery {
+		flex-direction: row;
+	}
+
+	.gallery img {
+		width: 0;
+	}
+}

@@ -19,11 +19,15 @@
 }
 
 .scroll-down {
-	margin-bottom: 5vh;
+	margin-bottom: 10vh;
 }
 
 @media (min-width: 550px) {
 	h1 {
 		font-size: 20vh;
+	}
+
+	.scroll-down {
+		margin-bottom: 5vh;
 	}
 }
