@@ -32,6 +32,7 @@ html {
 	color: white;
 	font-family: 'Faustina', serif;
 	scroll-behavior: smooth;
+	min-width: 360px;
 }
 
 .highlighted {
@@ -43,13 +44,10 @@ html {
 	margin: 0 5vw;
 }
 
-.text-container {
-	min-height: 100vh;
+nav {
 	display: flex;
-	
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: center;
+	margin-top: 5vh;
 }
 
 h1 {
@@ -57,18 +55,21 @@ h1 {
 	letter-spacing: 20px;
 	font-size: 30vw;
 	font-weight: 400;
+	text-align: center;
 }
 
-.logo-container {
-	height: 100vh;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	padding: 5vh 0;
+h2 {
+	font-family: 'Rajdhani', sans-serif;
+	letter-spacing: 20px;
+	font-size: 60px;
+	font-weight: 800;
 	text-align: center;
-	margin-right: 10px;
+}
+
+h3 {
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
 }
 
 ul {
@@ -99,9 +100,5 @@ p {
 @media (min-width: 550px) {
 	.text {
 		margin: 0 15vw;
-	}
-
-	h1 {
-		font-size: 20vh;
 	}
 }
