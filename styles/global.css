@@ -35,27 +35,8 @@ html {
 	min-width: 360px;
 }
 
-.highlighted {
-	color: #00BCD4;
-	font-weight: bold;
-}
-
 .text {
 	margin: 0 5vw;
-}
-
-nav {
-	display: flex;
-	justify-content: center;
-	margin-top: 5vh;
-}
-
-nav a {
-	color: white;
-}
-
-nav a:hover {
-	color: #00BCD4;
 }
 
 h1 {
@@ -100,6 +81,20 @@ a {
 a:hover {
 	color: white;
 	text-decoration: dotted underline;
+}
+
+nav a {
+	color: white;
+}
+
+nav a:hover {
+	color: #00BCD4;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	margin-top: 5vh;
 }
 
 p {

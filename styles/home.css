@@ -18,8 +18,40 @@
 	margin-right: 10px;
 }
 
+@keyframes go-up {
+	from {
+		padding-bottom: 10px;
+		padding-top: 0px;
+	}
+	to {
+		padding-bottom: 0px;
+		padding-top: 10px;
+	}
+}
+
 .scroll-down {
 	margin-bottom: 10vh;
+	padding-bottom: 10px;
+	padding-top: 0px;
+
+	animation-name: go-up;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes transition-to-blue {
+	from {color: white;}
+	to {color: #00BCD4;}
+}
+
+.o {
+	animation-name: transition-to-blue;
+	animation-delay: 1s;
+	animation-duration: 8s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
 }
 
 @media (min-width: 550px) {
